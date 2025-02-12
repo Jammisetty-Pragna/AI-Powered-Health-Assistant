@@ -9,7 +9,6 @@ nltk.download('stopwords')
 
 chatbot = pipeline("text-generation", model="distilgpt2")
 
-# Define healthcare-specific response logic
 def healthcare_chatbot(user_input):
 
     if "symptom" in user_input:
@@ -28,7 +27,6 @@ def healthcare_chatbot(user_input):
         response = chatbot(user_input, max_length=300, num_return_sequences=1)
         return response[0]['generated_text']
 
-# Streamlit web app interface
 def main():
     
     st.title("Healthcare Assistant Chatbot")
