@@ -18,9 +18,9 @@ def healthcare_chatbot(user_input):
     elif "medication" in user_input:
         return "It's important to take your prescribed medications regularly. If you have concerns, consult your doctor."
     elif "stomachpain" in user_input:
-        return "Stomach pain can have various reasons like indigestion,gas,etc.\n 1.TAKE REST:Sit or lie down in a comfortable position to relax your abdominal muscles\n2.WARM COMPRESS:Place a heating pad or warm cloth on your stomach to ease the pain\n3.STAY HYDRATED:Sip on warm water herbal tea or clear fluids to stay hydrated and soothe your stomach"
+        return "Stomach pain can have various reasons like indigestion,gas,etc. 1.TAKE REST:Sit or lie down in a comfortable position to relax your abdominal muscles 2.WARM COMPRESS:Place a heating pad or warm cloth on your stomach to ease the pain 3.STAY HYDRATED:Sip on warm water herbal tea or clear fluids to stay hydrated and soothe your stomach"
     elif "headache" in user_input:
-        return "Headache can be caused by various factors such as stress,dehydration,lack of sleep,etc..\nHere are few suggestions to help you:\n1.DRINK WATER:Dehydration is a common cause to the headache,so try sipping water./n2.TAKE A BREAK:Rest your eyes and mind\n3.APPLY A COOL COMPRESS:Place a cold cloth or an ice pack on your forehead or on back of your neck\n4.MASSAGE:Gently massage your temples,neck or the area wher you feel pain"
+        return "Headache can be caused by various factors such as stress,dehydration,lack of sleep,etc.. Here are few suggestions to help you:1.DRINK WATER:Dehydration is a common cause to the headache,so try sipping water. 2.TAKE A BREAK:Rest your eyes and mind 3.APPLY A COOL COMPRESS:Place a cold cloth or an ice pack on your forehead or on back of your neck\n4.MASSAGE:Gently massage your temples,neck or the area wher you feel pain"
     elif "virus" in user_input:
         return "Tt is better to consult a doctor if you felt like that"
     else:
